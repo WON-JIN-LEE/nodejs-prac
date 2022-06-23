@@ -1,0 +1,55 @@
+header: {  Authorization: `Bearer ${Token
+    }`,
+},
+{
+position,
+front : {
+ability : [
+            {
+                "name": 언어, string,
+                "time": 기간, number OR String,
+                "rate": 상중하, number OR String,
+            },
+...
+        ],
+skills : [
+            {
+                "name": 언어, string,
+                "time": 기간, number OR String,
+                "rate": 상중하, number OR String,
+            },
+...
+        ]
+    }
+back: {
+ability : [
+            {
+                "name": 언어, string,
+                "time": 기간, number OR String,
+                "rate": 상중하, number OR String,
+            },
+...
+        ],
+skills : [
+            {
+                "name": 언어, string,
+                "time": 기간, number OR String,
+                "rate": 상중하, number OR String,
+            },
+...
+        ]
+    }
+design : {
+skills : [
+            {
+                "name": 언어, string,
+                "time": 기간, number OR String,
+                "rate": 상중하, number OR String,
+            },
+...
+        ]
+    },
+portfolioUrl : [string, ...
+    ],
+},
+url: {},

@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "msg": " 회원정보 조회 완료",
+  "userInfo": {
+    "_id": "6246fd4000a0c5e706753edb",
+    "stack": {
+      "front": {
+        "ability": {
+          "name": "",
+          "score": -1
+        },
+        "skills": {
+          "name": "",
+          "score": -1
+        }
+      },
+      "back": {
+        "ability": {
+          "name": "",
+          "score": -1
+        },
+        "skills": {
+          "name": "",
+          "score": -1
+        }
+      },
+      "design": {
+        "skills": {
+          "name": "",
+          "score": -1
+        }
+      },
+      "reliability": 50,
+      "cooperation": 50
+    },
+    "url": "",
+    "portfolioUrl": [],
+    "design": {
+      "skills": []
+    },
+    "back": {
+      "ability": [],
+      "skills": []
+    },
+    "front": {
+      "ability": [],
+      "skills": []
+    },
+    "introduction": "",
+    "position": "",
+    "userId": {
+      "_id": "6246fd4000a0c5e706753ed9",
+      "suveyCheck": false,
+      "kakaoId": null,
+      "dmRooms": [],
+      "profileUrl": "이미지 주소",
+      "nickname": "test1",
+      "email": "test1@test.com",
+      "createdAt": "2022-04-01T13:25:20.845Z",
+      "updatedAt": "2022-04-01T13:25:20.845Z",
+      "__v": 0
+    },
+    "createdAt": "2022-04-01T13:25:20.883Z",
+    "updatedAt": "2022-04-01T13:25:20.883Z",
+    "__v": 0
+  },
+  "projectData": [],
+  "totalProject": 0
+}

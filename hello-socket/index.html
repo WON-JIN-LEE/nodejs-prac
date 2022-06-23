@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+        <title>Hello Socket.io!</title>
+    </head>
+    <body>
+        <button onclick="test()">소켓 테스트</button>
+        <script>
+    setCookie("token", "on", "1");
+    // 쿠키 생성 함수
+    function setCookie(cName, cValue, cDay) {
+        var expire = new Date();
+        expire.setDate(expire.getDate() + cDay);
+        cookies = cName + '=' + escape(cValue) + '; path=/ '; // 한글 깨짐을 막기위해 escape(cValue)를 합니다.
+        if (typeof cDay != 'undefined') cookies += ';expires=' + expire.toGMTString() + ';';
+        document.cookie = cookies;
+    }
+
+
+            const socket = io("ws://localhost:5000");
+            socket.on("connect", () => {
+                socket.send("Hello!");
+            });
+
+            socket.on("message", (data) => {
+                console.log(data);
+            });
+
+            async function test(){
+                await socket.on("LIKE", (data) => {
+                    console.log(data);
+                });
+            }
+        </script>
+    </body>
+
+</html>
