@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\WonJin\\node_practice\\node_logger\\logs\\.34885f0392c3b5aaf891aff77c6e1d72b33cbac7-audit.json",
+    "files": [
+        {
+            "date": 1657135808826,
+            "name": "C:\\WonJin\\node_practice\\node_logger\\logs\\2022-07-07.log",
+            "hash": "ccc9b5a2509fedfa1925705ef10d3afbc313467903dab8a57235c41fbc055871"
+        }
+    ],
+    "hashType": "sha256"
+}
