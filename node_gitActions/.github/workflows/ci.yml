@@ -20,6 +20,5 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
-    - run: cd node_gitActions
     - run: npm ci
     - run: npm test
